@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,400|Open+Sans:300,400,700');
+body, html {
+	font-size: $qt-base-mobile;
+	line-height: $qt-lineheight-mobile;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: geometricPrecision; 
+}
+
+strong {
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-rendering: geometricPrecision;
+	letter-spacing: -0.02em;
+}
+
+.qt-desktopmenu, .qt-side-nav, .qt-menu-footer, .qt-capfont {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-rendering: geometricPrecision;
+}
+.qt-thin {
+	font-weight: 300;
+}
+.qt-btn {
+	letter-spacing: 0.03em;
+}
